@@ -1,0 +1,66 @@
+[
+    {
+        "key":"DSCRFAS1",
+        "name":"Teeth Whitening",
+        "description":"Tooth whitening is a great way to get back that stunning white smile.",
+        "details":"Tooth whitening is a great way to get back that stunning white smile and make you feel so much more confident around others.Teeth age with time and they get less white as we get older. Thankfully tooth whitening is an easy, affordable way to get that fresh, young smile back.",
+        "img":"https://image.freepik.com/free-photo/dentist-comparing-patient-s-teeth-shade-with-samples-bleaching-treatment_365776-4913.jpg"
+
+    },
+    {
+        "key":"DSCRFAS2",
+        "name":"Affordable Care Plans ",
+        "description":"FINANCING YOUR TREATMENT",
+        
+        "details":"We have affordable dental care plans that allow you to access private dentistry and spread your payments over monthly period.Interested in having the high-quality dental treatments but uncertain how to pay for it?",
+        "img":"https://as2.ftcdn.net/v2/jpg/00/89/68/19/1000_F_89681969_r6PZIB3wJQ6qC70I8p7no41pNV94H20y.jpg"
+        
+
+
+    },
+    {
+        "key":"DSCRFAS3",
+        "name":"Cosmetic Dentistry",
+        "description":"Cosmetic dentistry is a broad term used to describe different dental techniques.",
+        "details":"Cosmetic dentistry is a broad term used to describe different dental techniques to restore your teeth and smile, with the focus being on achieving the best aesthetic, functional result",
+        "price":9000,
+        "img":"https://image.freepik.com/free-photo/woman-patient-visiting-dentist_1303-24409.jpg"
+
+    },
+    {
+        "key":"DSCRFAS4",
+        "name":"Dental Selants",
+    
+        "description":"Dental sealant is a thin, plastic coating painted on the chewing surfaces of teeth.",
+        "details":"Dental sealant is a thin, plastic coating painted on the chewing surfaces of teeth -- usually the back teeth (the premolars and molars) -- to prevent tooth decay. The sealant quickly bonds into the depressions and grooves of the teeth, forming a protective shield over the enamel of each tooth.",
+        "price":8000,
+        "img":"https://as2.ftcdn.net/v2/jpg/01/18/50/79/1000_F_118507948_mM8yTsZnQHTQSWhqvxrs4NLVYuMXl0JO.jpg"
+    },
+    {
+        "key":"DSCRFAS5",
+        "name":"Dental Implants",
+        "description":"Dental implants are well-accepted and long term solution for replacing missing teeth.",
+        "details":"Dental implants are well-accepted and long term solution for replacing missing teeth. Placed directly into the jaw bone, a dental implant provides a replacement for the root of a missing tooth or teeth. A dental implant can support crowns or dentures, in a similar way that roots support natural teeth.",
+        "price":8000,
+        "img":"https://as2.ftcdn.net/v2/jpg/00/71/50/27/500_F_71502762_pjrhXyf7i3s1e6aoCVKHcDmVmwhj8Y6o.jpg"
+
+    },
+    {
+        "key":"DSCRFAS6",
+        "name":"Facial Aesthetics",
+        "description":"We provide a range of bespoke facial aesthetics and skin treatment choices.",
+        "details":"We provide a range of bespoke facial aesthetics and skin treatment choices, uniquely tailored to the individual for long-lasting and natural results.With treatment times on average from 20-30 mins and results lasting for 6-9 months, its no wonder that these treatments are increasing in their popularity. Before we discuss any treatments we first carry our FREE skin consultation where you get to meet our facial aesthetics expert and tell them what results you’re looking for.",
+        "price":2000,
+        "img":"https://as2.ftcdn.net/v2/jpg/02/31/59/77/1000_F_231597774_mUlbB4UFv0Wmx82cfYUA8fXpJTeMLOKx.jpg"
+
+    },
+    {
+        "key":"DSCRFAS7",
+        "name":"Orthodontics ",
+        "description":"Orthodontics and Invisalign (a popular system) is a great way to get that great confident smile.",
+        "details":"Orthodontics and Invisalign (a popular system) is a great way to get that great confident smile. If teeth are crowded a malpositioned, sometimes the only way to improve your smile is to delicately move the teeth into their best-desired positions.",
+        "img":"https://image.freepik.com/free-photo/shot-teeth-with-braces_329181-17706.jpg"
+
+    }
+  
+]

@@ -1,0 +1,20 @@
+
+.items {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .items:hover {
+    color: white;
+  }
+  .header-container {
+    background-color:rgb(212, 212, 233);
+  }
+  
+
+/* @media screen and (max-width: 400px) {
+    .title {
+      display: none;
+    }
+  } */

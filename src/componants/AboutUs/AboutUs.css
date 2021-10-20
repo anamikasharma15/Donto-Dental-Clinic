@@ -1,0 +1,16 @@
+  .about-section {
+     height: 500px; 
+     width: 100%; 
+     background-color: rgb(54, 54, 97);
+     /* background-image: url("../images/header-bg.webp") ; */
+    /* height:600px;
+     width: 100%; */
+     border: 1px solid red; 
+    background-blend-mode: overlay; 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     background-position: center; 
+     position: relative; 
+     padding: 30px; 
+   } 
+    
