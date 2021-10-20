@@ -27,7 +27,7 @@
                  <li className="items m-2 p-2"><Link to='/contact'>Contact Us</Link></li>
                  <li className="items m-2 p-2"><Link to='/services'>Services</Link></li>
                  <li className="items m-2 p-2"><Link to='/dentists'>Top Dentist</Link></li>
-                 <li className="items m-2 p-2"><Link to='/longIn'>Login</Link></li>
+                 {/* <li className="items m-2 p-2"><Link to='/longIn'>Login</Link></li> */}
                  {/* {
                         user?.email ?
                            <div className='d-flex align-items-center j<h5> Log in as : {user.displayName}</h5>

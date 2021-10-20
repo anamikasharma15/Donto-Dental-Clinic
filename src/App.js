@@ -9,7 +9,7 @@ import AboutUS from './componants/AboutUs/AboutUs';
 import Contact from './componants/Contact/Contact';
 import Services from './componants/Services/Services';
 import ServiceDetails from './componants/ServiceDetails/ServiceDetails';
-import LogIn from './componants/LogIn/LogIn';
+// import LogIn from './componants/LogIn/LogIn';
 import Dentists from './componants/Dentists/Dentists';
 // import AuthProvider from './context/AuthProvider';
 // import LogIn from './components/LogIn/LogIn';
@@ -43,9 +43,9 @@ function App() {
              <Route exact path="/detail/:detailId">
                <ServiceDetails></ServiceDetails>
             </Route>
-            <Route path="/longIn">
-              <LogIn></LogIn>
-            </Route> 
+            {/* <Route path="/longIn"> */}
+              {/* <LogIn></LogIn> */}
+            {/* </Route>  */}
             <Route exact path="/dentists">
               <Dentists></Dentists>
             </Route> 
