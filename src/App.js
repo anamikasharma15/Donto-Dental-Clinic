@@ -9,9 +9,10 @@ import AboutUS from './componants/AboutUs/AboutUs';
 import Contact from './componants/Contact/Contact';
 import Services from './componants/Services/Services';
 import ServiceDetails from './componants/ServiceDetails/ServiceDetails';
-// import LogIn from './componants/LogIn/LogIn';
+import LogIn from './componants/LogIn/LogIn';
 import Dentists from './componants/Dentists/Dentists';
-// import AuthProvider from './context/AuthProvider';
+import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './componants/PrivateRoute/PrivateRoute';
 // import LogIn from './components/LogIn/LogIn';
 // import AuthProvider from './Firebase/AuthProvider';
 // import PrivateRoute from './Firebase/PrivateRoute';
@@ -20,7 +21,7 @@ import Dentists from './componants/Dentists/Dentists';
 function App() {
   return (
       <div>
-      {/* // <AuthProvider> */}
+      <AuthProvider>
         <BrowserRouter>
           <Header></Header>
           <Switch>
@@ -30,25 +31,25 @@ function App() {
            <Route exact path="/">
               <Home></Home>
             </Route> 
-             <Route path="/aboutUs">
+             <PrivateRoute path="/aboutUs">
               <AboutUS></AboutUS>
-            </Route> 
-             <Route path="/contact">
+            </PrivateRoute> 
+             <PrivateRoute path="/contact">
               <Contact></Contact>
-            </Route> 
+            </PrivateRoute> 
 
              <Route exact path="/services">
                <Services></Services>
             </Route>
-             <Route exact path="/detail/:detailId">
+             <PrivateRoute exact path="/detail/:detailId">
                <ServiceDetails></ServiceDetails>
-            </Route>
-            {/* <Route path="/longIn"> */}
-              {/* <LogIn></LogIn> */}
-            {/* </Route>  */}
-            <Route exact path="/dentists">
-              <Dentists></Dentists>
+            </PrivateRoute>
+            <Route path="/logIn">
+              <LogIn></LogIn>
             </Route> 
+            <PrivateRoute exact path="/dentists">
+              <Dentists></Dentists>
+            </PrivateRoute> 
 
 
             {/* <PrivateRoute path="/pharmacy">
@@ -66,7 +67,7 @@ function App() {
 
           <Footer></Footer>
         </BrowserRouter>
-      {/* // </AuthProvider> */}
+      </AuthProvider>
     </div>
   );
 }
